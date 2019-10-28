@@ -1,0 +1,222 @@
+﻿@font-face {
+	font-family: 'Yekan';
+	src: url('Fonts/Yekan.woff') format('woff');
+}
+
+body {
+	direction: rtl;
+	padding: 0px;
+	margin: 0px;
+}
+
+.headerDiv {
+	height: 60px;
+	/*border: 1px solid #010101;*/
+	overflow: hidden;
+}
+
+.menuDiv {
+	width: 960px;
+	margin: 0px auto;
+}
+
+	.menuDiv ul {
+		float: right;
+		padding-right: 2px;
+	}
+
+		.menuDiv ul li {
+			display: inline-block;
+		}
+
+			.menuDiv ul li a {
+				padding: 10px 15px;
+				text-decoration: none;
+				font-family: Yekan;
+				color: #31cab7;
+				border-radius: 4px;
+			}
+
+				.menuDiv ul li a:hover {
+					background-color: #a0a0a0;
+					font-weight: bolder;
+					font-style: oblique;
+					color: #ffffff;
+				}
+
+.logo {
+	width: 60px;
+	height: 60px;
+	float: right;
+}
+
+.formBackgroundDiv {
+	background: linear-gradient(to bottom right, #f698c9 0%, #a39292 100%);
+	height: 250px;
+}
+
+#WelcomeParagraph {
+	font-family: Yekan;
+	color: #fff;
+	font-size: 33px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#JoiningParagraph {
+	font-family: Yekan;
+	color: #fff;
+	font-size: 27px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.InputText {
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	font-family: Yekan;
+	font-size: 15px;
+	padding: 0 15px;
+	outline: none;
+	border: solid 1px #808080;
+	border-radius: 4px;
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+	margin-right: 5px;
+}
+
+	.InputText:hover {
+		background-color: #e2dbb1;
+	}
+
+#inputForm {
+	text-align: center;
+}
+
+#saveButton {
+	font-family: Yekan;
+	font-size: 15px;
+	padding: 0 15px;
+	border: solid 1px #808080;
+	border-radius: 4px;
+	width: 70px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #31cab7;
+	color: white;
+}
+
+	#saveButton:hover {
+		background-color: #5c5353;
+		border: solid 2px #909090;
+		border-radius: 4px;
+		font-weight: bolder;
+		font-style: oblique;
+	}
+
+#contentsDiv {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#mainContentDiv {
+	width: 60%;
+	float: right;
+	padding: 10px;
+}
+
+.FirstContentDiv {
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+#firstContentImage {
+	border-radius: 8px;
+	width: 100%;
+}
+
+#firstContentHeader {
+	font-family: Yekan;
+	font-size: 25px;
+	color: #404040;
+	padding: 0 10px;
+}
+
+#firstContentParagraph {
+	font-family: Yekan;
+	font-size: 15px;
+	color: #505050;
+	padding: 0 20px;
+}
+
+#continueDiv {
+	padding: 10px 20px;
+}
+
+#continueButton {
+	text-decoration: none;
+	font-family: Yekan;
+	font-size: 15px;
+	padding: 0 15px;
+	border: solid 1px #808080;
+	border-radius: 4px;
+	width: 70px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #31cab7;
+	color: white;
+	display: inline-block;
+}
+
+	#continueButton:hover {
+		background-color: #5c5353;
+		border: solid 2px #909090;
+		border-radius: 4px;
+		font-weight: bolder;
+		font-style: oblique;
+	}
+
+#secondContentDiv {
+	width: 35%;
+	padding: 10px;
+	float: right;
+}
+
+.SecondContentImage {
+	width: 100%;
+	border-radius: 8px;
+}
+
+.SecondContentHeader {
+	font-family: Yekan;
+	font-size: 15px;
+	color: #404040;
+	padding: 10px 20px;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.SecondContentDivDiv {
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+	border: 1px dashed #e0e0e0;
+	border-radius: 8px;
+	margin: 10px 0 10px 0;
+}
+
+	.SecondContentDivDiv:hover {
+		background-color: #c0c0c0;
+		font-style: oblique;
+	}
+
+#footerDiv {
+	height: 100px;
+	background-color: #909090;
+}
+
+#footerPre {
+	font-family: Yekan;
+	font-size: 15px;
+	color: #ffffff;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
